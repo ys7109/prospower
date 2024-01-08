@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="school">
+        <item>초등학교</item>
+        <item>중학교</item>
+        <item>고등학교</item>
+    </string-array>
+
+    <string-array name="grade_edu">
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+        <item>4학년</item>
+        <item>5학년</item>
+        <item>6학년</item>
+    </string-array>
+
+    <string-array name="grade">
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+    </string-array>
+</resources>
