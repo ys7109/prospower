@@ -44,7 +44,7 @@
 
         <RadioButton
             android:id="@+id/female"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="230dp"
             android:layout_marginTop="-48dp"
@@ -105,10 +105,11 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="로그인 화면으로 이동" />
+
     </LinearLayout>
 
     <EditText
-        android:id="@+id/emailText"
+        android:id="@+id/nameText"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="65dp"
