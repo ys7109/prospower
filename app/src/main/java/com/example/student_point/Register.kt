@@ -116,9 +116,6 @@ class Register : AppCompatActivity() {
             val grade: String = spinnerGrade.selectedItem.toString()
             val number: String = numberText.text.toString()
 
-            if (validate) {
-                return@setOnClickListener
-            }
 
             if (name.isEmpty() || id.isEmpty() || password.isEmpty() || gender.isEmpty() || school.isEmpty() ||
                 grade.isEmpty() || number.isEmpty()
