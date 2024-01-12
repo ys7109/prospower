@@ -11,6 +11,7 @@
         android:roundIcon="@drawable/resource__"
         android:supportsRtl="true"
         android:theme="@style/Theme.Student_Point"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".Register"
@@ -27,4 +28,5 @@
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission> <!-- 인터넷 사용을 위한 코드 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 </manifest>
